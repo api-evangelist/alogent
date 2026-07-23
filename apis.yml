@@ -1,7 +1,14 @@
 aid: alogent
 name: Alogent
-description: Alogent is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Alogent is a banking and financial technology provider that delivers cloud-native
+  software to banks and credit unions across three product families: payments and deposit
+  automation (Unify omni-channel check capture across branch, mobile, and ATM/ITM), intelligent
+  check fraud detection and mitigation (Alogent Shield and Shield+), and enterprise content
+  and loan document management (FASTdocs, AccuAccount, and the Alogent Document Portal). The
+  platform emphasizes workflow automation, compliance controls, real-time transaction
+  processing, and AI-assisted fraud prevention for financial institutions of all sizes. Alogent
+  is a portfolio company of Battery Ventures. No public developer portal or API documentation
+  surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/alogent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,55 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.alogent.com/themes/alogent/favicon.ico
 tags:
 - Company
+- Banking
+- Financial Services
+- Fintech
+- Payments
+- Check Processing
+- Deposit Automation
+- Fraud Detection
+- Content Management
+- Loan Management
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alogent-domain-security.yml
+- type: Website
+  url: https://www.alogent.com
+- type: Support
+  url: https://www.alogent.com/support
+- type: Blog
+  url: https://www.alogent.com/innovation-hub
+- type: TrustCenter
+  url: https://trust.alogent.com/home
+- type: PrivacyPolicy
+  url: https://www.alogent.com/privacy-policy
+- type: TermsOfService
+  url: https://www.alogent.com/terms-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
