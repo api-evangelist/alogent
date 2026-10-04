@@ -45,12 +45,12 @@ image: https://www.alogent.com/themes/alogent/favicon.ico
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Check Processing
 - Deposit Automation
-- Fraud Detection
+- Fraud Prevention
 - Content Management
 - Loan Management
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Fraud Detection
 - Content Management
 - Loan Management
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
